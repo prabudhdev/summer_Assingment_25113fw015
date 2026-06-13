@@ -1,6 +1,9 @@
 #include<stdio.h>
+
 int main(){
-    int n ;
+
+   long long int n;
+
     printf("Enter  number :");
     scanf("%d",&n);
     for(int i = 1 ; i <=n ; i++){
@@ -8,10 +11,10 @@ int main(){
             printf(" ");
         }
         for(int k = 1 ; k <=i  ; k++){
-            printf("%d",k);
+            printf("%lld",k);
         }
         for(int l = i-1 ; l >=1 ; l--){
-            printf("%d",l);
+            printf("%lld",l);
         }
         printf("\n");
     }
