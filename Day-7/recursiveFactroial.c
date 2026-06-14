@@ -14,7 +14,7 @@ int main(){
      scanf("%d",&num);
 
      if(num < 0){
-        printf("factorial id nit defined for negative numaber .\n");
+        printf("factorial id nit defined for negative number .\n");
          }else{
             printf("Factorial of %d id %d.\n",num ,factorial(num)); 
 
