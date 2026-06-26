@@ -4,7 +4,7 @@ int compare ( const void *a , const void *b){
     return (*(int*)a -  *(int*)b);
 
 }
-int removeDuplicaates(int arr[],int n){
+int removeDuplicates(int arr[],int n){
     if(n == 0 || n == 1){
         return 0 ;
     }
@@ -22,8 +22,8 @@ int removeDuplicaates(int arr[],int n){
     int main (){
         int arr[] = {1,2,3,4,4,45,5,5,3};
         int n = sizeof(arr)  / sizeof(arr[0]);
-        int newSize = removeDuplicaates(arr , n);
-        printf("Array after removing dublicates   :");
+        int newSize = removeDuplicates(arr , n);
+        printf("Array after removing duplicate   :");
         for(int i = 0 ; i< newSize ; i++){
             printf("%d",arr[i]);
         }
