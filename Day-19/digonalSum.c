@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+    int n , sum = 0;
+
+    printf("Enter order of square matrix :");
+    scanf("%d",&n);
+
+    int A[n][n];
+
+    printf("Enter matrix element : \n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            scanf("%d",A[i][j]);
+        }
+        
+    }
+    for (int i = 0; i < n; i++)
+    {
+        sum = sum + A[i][i];
+    }
+
+
+    printf("Sum of main diagonal = %d",sum);
+    return 0 ;
+}
