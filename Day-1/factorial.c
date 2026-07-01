@@ -4,8 +4,7 @@ int main(){
 
     int fact=1,n;
 
-    printf("Enter a positive
- integer:");
+    printf("Enter a positive integer:");
 
     scanf("%d",&n);
 
